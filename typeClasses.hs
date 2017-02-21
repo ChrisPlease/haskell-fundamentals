@@ -163,3 +163,5 @@ instance Directions Point3 where
     " towards " ++ (show p2) ++
     " and stop after " ++ (show (distance p1 p2))
 
+-- nothing needed for this instance since using the default getDirections functions
+instance Directions Point2 where
